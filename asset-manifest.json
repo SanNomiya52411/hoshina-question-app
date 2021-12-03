@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hoshina-question-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/hoshina-question-app/static/js/main.629afea0.chunk.js",
+    "main.js.map": "/hoshina-question-app/static/js/main.629afea0.chunk.js.map",
+    "runtime-main.js": "/hoshina-question-app/static/js/runtime-main.1e5301c7.js",
+    "runtime-main.js.map": "/hoshina-question-app/static/js/runtime-main.1e5301c7.js.map",
+    "static/js/2.29148dbd.chunk.js": "/hoshina-question-app/static/js/2.29148dbd.chunk.js",
+    "static/js/2.29148dbd.chunk.js.map": "/hoshina-question-app/static/js/2.29148dbd.chunk.js.map",
+    "index.html": "/hoshina-question-app/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/hoshina-question-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.29148dbd.chunk.js.LICENSE.txt": "/hoshina-question-app/static/js/2.29148dbd.chunk.js.LICENSE.txt",
+    "static/media/IMG_3556.d894819a.png": "/hoshina-question-app/static/media/IMG_3556.d894819a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e5301c7.js",
+    "static/js/2.29148dbd.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.629afea0.chunk.js"
+  ]
+}
