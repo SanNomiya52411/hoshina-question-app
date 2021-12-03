@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import SignIn from './App';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import PassQuestion from "./qestion";
+import PassTrue from "./HoMizugishi"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+  <Routes>
+    <Route path="/hoshina-question-app" element={<SignIn />} />
+    <Route path="/question" element={<PassQuestion />}/>
+    <Route path="/hoshina-question-app/passTrue" element={<PassTrue />} />
+  </Routes>
+</Router>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
